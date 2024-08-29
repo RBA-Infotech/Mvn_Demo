@@ -48,7 +48,7 @@ public class RestBusTest {
 
 		System.out.println("The title of Redbus website is: " + actResult);
 		Assert.assertEquals(actResult, expResult);
-		driver.close();
-		
+		//driver.close();
+		driver.quit();
 	}
 }
